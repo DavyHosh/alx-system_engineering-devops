@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -p1 | sort -d | sed 's/[^\/]*\//&\//' | tr '\n' ',' && echo
+ls -map
